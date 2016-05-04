@@ -1,0 +1,974 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Source xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SourceEntity="os155" OriginTimestamp="2016-03-28T09:13:01.000-06:00" SoftwareVendor="VisionLink" SoftwareVersion="Tapestry" TaxonomyVersion="2016-03-28T09:13:01.000-06:00" SchemaVersion="3.0">
+  <Agency FEIN="95-2880426" ExcludeFromWebsite="false" ExcludeFromDirectory="false">
+    <Key>169894</Key>
+    <Name>ElderHelp</Name>
+    <AgencyDescription>Provides an array of programs that include care management and in home help services through the Concierge Club; transportation through Seniors A Go Go, and live-in roommate matching services through the HomeShare program. </AgencyDescription>
+    <AgencyLocation ExcludeFromWebsite="false" ExcludeFromDirectory="false">
+      <Name>ElderHelp</Name>
+      <SiteDescription>Provides an array of programs that include care management and in home help services through the Concierge Club; transportation through Seniors A Go Go, and live-in roommate matching services through the HomeShare program. </SiteDescription>
+      <PhysicalAddress Confidential="false">
+        <PreAddressLine/>
+        <Line1>3860 Calle Fortunada, Suite 101</Line1>
+        <Line2/>
+        <City>San Diego</City>
+        <State>CA</State>
+        <ZipCode>92123</ZipCode>
+        <Country/>
+      </PhysicalAddress>
+      <MailingAddress Confidential="false">
+        <PreAddressLine/>
+        <Line1/>
+        <Line2/>
+        <City/>
+        <State/>
+        <ZipCode/>
+        <Country/>
+      </MailingAddress>
+      <DisabilitiesAccess/>
+      <BusServiceAccess/>
+    </AgencyLocation>
+    <Phone TollFree="false" Confidential="false">
+      <PhoneNumber>(619) 284-9281</PhoneNumber>
+      <Description>Main</Description>
+      <Type>Voice</Type>
+    </Phone>
+    <Phone TollFree="false" Confidential="false">
+      <PhoneNumber>(619) 284-0214</PhoneNumber>
+      <Description>Fax</Description>
+      <Type>Fax</Type>
+    </Phone>
+    <URL>
+      <Address>www.elderhelpofsandiego.org</Address>
+      <Note/>
+    </URL>
+    <Email>
+      <Address>info@elderhelpofsandiego.org</Address>
+    </Email>
+    <IRSStatus/>
+    <SourceOfFunds>City Funding; Corporation/Foundation; Donations; Grants; United Way Certified Funded</SourceOfFunds>
+    <ServiceGroup>
+      <Key>341002</Key>
+      <Name>Seniors A Go Go</Name>
+      <ProgramName>Seniors A Go Go</ProgramName>
+    </ServiceGroup>
+    <ServiceGroup>
+      <Key>733002</Key>
+      <Name>In Home Volunteer Services</Name>
+      <ProgramName>In Home Volunteer Services</ProgramName>
+    </ServiceGroup>
+    <ServiceGroup>
+      <Key>339995</Key>
+      <Name>Concierge Club</Name>
+      <ProgramName>Concierge Club</ProgramName>
+    </ServiceGroup>
+    <ServiceGroup>
+      <Key>337647</Key>
+      <Name>HomeShare</Name>
+      <ProgramName>HomeShare</ProgramName>
+    </ServiceGroup>
+    <ServiceGroup>
+      <Key>341001</Key>
+      <Name>RUOK Daily Phone Call</Name>
+      <ProgramName>RUOK Daily Phone Call</ProgramName>
+    </ServiceGroup>
+    <Site ExcludeFromWebsite="false" ExcludeFromDirectory="false">
+      <Key>659100</Key>
+      <Name>Seniors A Go Go - Transportation, Elderhelp</Name>
+      <SiteDescription>Offers curb-to-curb or door-thru-door transportation services to seniors by caring volunteer drivers. Rides are provided within a 15 mile radius of the senior's home to: medical appointments, salons, senior centers, libraries, social visits and other essential places. Donation based. Serves all income levels. Serves Central San Diego, few parts of East County, Scripps Ranch and Rancho Bernardo, all dependent on volunteer availability.</SiteDescription>
+      <AKA>
+        <Name>senior a go-go</Name>
+        <Confidential>false</Confidential>
+      </AKA>
+      <PhysicalAddress Confidential="false">
+        <PreAddressLine/>
+        <Line1>3860 Calle Fortunada, Suite 101</Line1>
+        <Line2/>
+        <City>San Diego</City>
+        <State>CA</State>
+        <ZipCode>92123</ZipCode>
+        <Country/>
+      </PhysicalAddress>
+      <MailingAddress Confidential="false">
+        <PreAddressLine/>
+        <Line1/>
+        <Line2/>
+        <City/>
+        <State/>
+        <ZipCode/>
+        <Country/>
+      </MailingAddress>
+      <Phone TollFree="false" Confidential="false">
+        <PhoneNumber>(619) 284-9281</PhoneNumber>
+        <Description>Main</Description>
+        <Type>Voice</Type>
+      </Phone>
+      <URL>
+        <Address>www.elderhelpofsandiego.org</Address>
+        <Note/>
+      </URL>
+      <Email>
+        <Address>info@elderhelpofsandiego.org</Address>
+      </Email>
+      <TimeOpen>
+        <Notes>8:00 am-4:00 pm Monday-Thursday; 8:00 am-12:00 pm Friday</Notes>
+      </TimeOpen>
+      <DisabilitiesAccess>Wheelchair Accessible</DisabilitiesAccess>
+      <BusServiceAccess/>
+      <SiteService ServiceGroupKey="341002" ServiceNotAlwaysAvailable="false">
+        <Name>Seniors A Go Go - Transportation, Elderhelp</Name>
+        <Key>659100</Key>
+        <Description>Offers curb-to-curb or door-thru-door transportation services to seniors by caring volunteer drivers. Rides are provided within a 15 mile radius of the senior's home to: medical appointments, salons, senior centers, libraries, social visits and other essential places. Donation based. Serves all income levels. Serves Central San Diego, few parts of East County, Scripps Ranch and Rancho Bernardo, all dependent on volunteer availability.</Description>
+        <Phone TollFree="false" Confidential="false">
+          <PhoneNumber>(619) 284-9281</PhoneNumber>
+          <Description>Main</Description>
+          <Type>Voice</Type>
+        </Phone>
+        <TimeOpen>
+          <Notes>8:00 am-4:00 pm Monday-Thursday; 8:00 am-12:00 pm Friday</Notes>
+        </TimeOpen>
+        <TimeOpen>
+          <Monday>
+            <From>06:00:00</From>
+            <To>12:00:00</To>
+            <From>12:00:00</From>
+            <To>18:00:00</To>
+          </Monday>
+          <Tuesday>
+            <From>06:00:00</From>
+            <To>12:00:00</To>
+            <From>12:00:00</From>
+            <To>18:00:00</To>
+          </Tuesday>
+          <Wednesday>
+            <From>06:00:00</From>
+            <To>12:00:00</To>
+            <From>12:00:00</From>
+            <To>18:00:00</To>
+          </Wednesday>
+          <Thursday>
+            <From>06:00:00</From>
+            <To>12:00:00</To>
+            <From>12:00:00</From>
+            <To>18:00:00</To>
+          </Thursday>
+          <Friday>
+            <From>06:00:00</From>
+            <To>12:00:00</To>
+            <From>12:00:00</From>
+            <To>18:00:00</To>
+          </Friday>
+        </TimeOpen>
+        <Taxonomy>
+          <Code>BT-4500.6500-800</Code>
+        </Taxonomy>
+        <GeographicAreaServed>
+          <ZipCode>92123</ZipCode>
+          <Description>*Central and selected areas in East County.  Zip codes: 92101, 92102, 92103, 92104, 92105, 92115, 92116, 92111, 92117, 92123, 92124, 92108, 92106, 92107, 92109, 92110, 92037, 92119, 92120, 92127, 92128, 92131, 92020, 92021, 92019, 91941, 91942, 91943, 91944, 91945, 91977, 92071, 92124, 91977, 91978  ***Please Note that Service is dependent on volunteer availability in area of need.</Description>
+        </GeographicAreaServed>
+        <ResourceInfo AvailableForDirectory="true" AvailableForReferral="true" AvailableForResearch="true" DateAdded="2010-07-07" DateLastVerified="2016-03-25" DateOfLastAction="2016-03-25" LastActionType="UPDATE">
+          <Contact Type="Editor">
+            <Name>Carrie McClellan</Name>
+            <Email>
+              <Address>cmcclellan@elderhelpofsandiego.org</Address>
+            </Email>
+          </Contact>
+          <ResourceSpecialist>Carrie McClellan</ResourceSpecialist>
+        </ResourceInfo>
+        <OtherRequirements>Eligibility: Seniors age 60+, must be able to transfer in and out of a car on own or with only an arm for balance. Canes/walkers are okay, unable to accommodate wheelchairs at this time. Must be able to self-advocate. 7 day advanced notice required once a member.</OtherRequirements>
+        <GenderRequirements>Either</GenderRequirements>
+      </SiteService>
+    </Site>
+    <Site ExcludeFromWebsite="false" ExcludeFromDirectory="false">
+      <Key>1443792</Key>
+      <Name>In Home Volunteer Services, ElderHelp</Name>
+      <SiteDescription>Services provided through volunteers to help seniors remain independent in their home. Volunteer services offered include: transportation, grocery shopping help, friendly visits/companionship, mail and bill sorting/budgeting, pet care (pet pals), minor home repairs, yard maintenance/gardening and more. Visits are typically bi-weekly. Concierge Club serves people of all income levels, donation based.&#13;
+&#13;
+*Volunteers complete training, background and DMV check, references and interview.</SiteDescription>
+      <PhysicalAddress Confidential="false">
+        <PreAddressLine/>
+        <Line1>3860 Calle Fortunada, Suite 101</Line1>
+        <Line2/>
+        <City>San Diego</City>
+        <State>CA</State>
+        <ZipCode>92123</ZipCode>
+        <Country/>
+      </PhysicalAddress>
+      <MailingAddress Confidential="false">
+        <PreAddressLine/>
+        <Line1/>
+        <Line2/>
+        <City/>
+        <State/>
+        <ZipCode/>
+        <Country/>
+      </MailingAddress>
+      <Phone TollFree="false" Confidential="false">
+        <PhoneNumber>(619) 284-9281</PhoneNumber>
+        <Description>Main</Description>
+        <Type>Voice</Type>
+      </Phone>
+      <URL>
+        <Address>www.elderhelpofsandiego.org</Address>
+        <Note/>
+      </URL>
+      <Email>
+        <Address>info@elderhelpofsandiego.org</Address>
+      </Email>
+      <Contact Type="director">
+        <Name>Carrie McClellan-ElderHelp</Name>
+      </Contact>
+      <TimeOpen>
+        <Notes>8:00 am-4:00 pm Monday-Thursday; 8:00 am-12:00 pm Friday</Notes>
+      </TimeOpen>
+      <DisabilitiesAccess>Wheelchair Accessible</DisabilitiesAccess>
+      <BusServiceAccess/>
+      <SiteService ServiceGroupKey="733002" ServiceNotAlwaysAvailable="false">
+        <Name>In Home Volunteer Services, ElderHelp</Name>
+        <Key>1443792</Key>
+        <Description>Services provided through volunteers to help seniors remain independent in their home. Volunteer services offered include: transportation, grocery shopping help, friendly visits/companionship, mail and bill sorting/budgeting, pet care (pet pals), minor home repairs, yard maintenance/gardening and more. Visits are typically bi-weekly. Concierge Club serves people of all income levels, donation based.&#13;
+&#13;
+*Volunteers complete training, background and DMV check, references and interview.</Description>
+        <Phone TollFree="false" Confidential="false">
+          <PhoneNumber>(619) 284-9281</PhoneNumber>
+          <Description>Main</Description>
+          <Type>Voice</Type>
+        </Phone>
+        <TimeOpen>
+          <Notes>8:00 am-4:00 pm Monday-Thursday; 8:00 am-12:00 pm Friday</Notes>
+        </TimeOpen>
+        <TimeOpen>
+          <Monday>
+            <From>06:00:00</From>
+            <To>12:00:00</To>
+            <From>12:00:00</From>
+            <To>18:00:00</To>
+          </Monday>
+          <Tuesday>
+            <From>06:00:00</From>
+            <To>12:00:00</To>
+            <From>12:00:00</From>
+            <To>18:00:00</To>
+          </Tuesday>
+          <Wednesday>
+            <From>06:00:00</From>
+            <To>12:00:00</To>
+            <From>12:00:00</From>
+            <To>18:00:00</To>
+          </Wednesday>
+          <Thursday>
+            <From>06:00:00</From>
+            <To>12:00:00</To>
+            <From>12:00:00</From>
+            <To>18:00:00</To>
+          </Thursday>
+          <Friday>
+            <From>06:00:00</From>
+            <To>12:00:00</To>
+            <From>12:00:00</From>
+            <To>18:00:00</To>
+          </Friday>
+        </TimeOpen>
+        <Taxonomy>
+          <Code>BT-4500.6500-800</Code>
+        </Taxonomy>
+        <Taxonomy>
+          <Code>PH-3300</Code>
+        </Taxonomy>
+        <GeographicAreaServed>
+          <ZipCode>92123</ZipCode>
+          <Description>92119, 92120, 92020, 92021, 92019, 91941, 91942, 91943, 91944, 91945, 91977, 92071, 92124,  92101, 92102, 92103, 92104, 92105, 92115, 92116, 92111, 92117, 92123, 92124, 92127, 92128, 92131, 92108, 92106, 92107, 92109, 92110, 92037</Description>
+        </GeographicAreaServed>
+        <ResourceInfo AvailableForDirectory="true" AvailableForReferral="true" AvailableForResearch="true" DateAdded="2013-11-01" DateLastVerified="2016-03-25" DateOfLastAction="2016-03-25" LastActionType="UPDATE">
+          <Contact Type="Editor">
+            <Name>Carrie McClellan</Name>
+            <Email>
+              <Address>cmcclellan@elderhelpofsandiego.org</Address>
+            </Email>
+            <Phone TollFree="false" Confidential="false">
+              <PhoneNumber>(619) 284-9281</PhoneNumber>
+              <Description>Main</Description>
+              <Type>Voice</Type>
+            </Phone>
+          </Contact>
+          <ResourceSpecialist>Carrie McClellan</ResourceSpecialist>
+        </ResourceInfo>
+        <OtherRequirements>Eligibility: 60 years and older</OtherRequirements>
+        <GenderRequirements>Either</GenderRequirements>
+      </SiteService>
+    </Site>
+    <Site ExcludeFromWebsite="false" ExcludeFromDirectory="false">
+      <Key>1443796</Key>
+      <Name>Home &amp; Garden, In Home Volunteer Services, ElderHelp</Name>
+      <SiteDescription>ElderHelp's volunteers help keep our senior's homes safe for them to continue living in them longer. Volunteers complete Home Safety Inspections and help with minor home repairs such as: installation of grab bars, locks, lighting, window repair,weeding/trimming, lawn maintenance, fire alarms/carbon monoxide detectors, trip, fire or safety hazards, step and railing repair and more. Serves all income levels. Donations based.&#13;
+</SiteDescription>
+      <PhysicalAddress Confidential="false">
+        <PreAddressLine/>
+        <Line1>3860 Calle Fortunada, Suite 101</Line1>
+        <Line2/>
+        <City>San Diego</City>
+        <State>CA</State>
+        <ZipCode>92120</ZipCode>
+        <Country/>
+      </PhysicalAddress>
+      <MailingAddress Confidential="false">
+        <PreAddressLine/>
+        <Line1/>
+        <Line2/>
+        <City/>
+        <State/>
+        <ZipCode/>
+        <Country/>
+      </MailingAddress>
+      <Phone TollFree="false" Confidential="false">
+        <PhoneNumber>(619) 284-9281</PhoneNumber>
+        <Description>Main</Description>
+        <Type>Voice</Type>
+      </Phone>
+      <URL>
+        <Address>www.elderhelpofsandiego.org</Address>
+        <Note/>
+      </URL>
+      <Email>
+        <Address>info@elderhelpofsandiego.org</Address>
+      </Email>
+      <Contact Type="director">
+        <Name>Carrie McClellan-ElderHelp</Name>
+      </Contact>
+      <TimeOpen>
+        <Notes>8:00 am-4:00 pm Monday-Thursday; 8:00 am-12:00 pm Friday</Notes>
+      </TimeOpen>
+      <DisabilitiesAccess>Wheelchair Accessible</DisabilitiesAccess>
+      <BusServiceAccess/>
+      <SiteService ServiceGroupKey="733002" ServiceNotAlwaysAvailable="false">
+        <Name>Home &amp; Garden, In Home Volunteer Services, ElderHelp</Name>
+        <Key>1443796</Key>
+        <Description>ElderHelp's volunteers help keep our senior's homes safe for them to continue living in them longer. Volunteers complete Home Safety Inspections and help with minor home repairs such as: installation of grab bars, locks, lighting, window repair,weeding/trimming, lawn maintenance, fire alarms/carbon monoxide detectors, trip, fire or safety hazards, step and railing repair and more. Serves all income levels. Donations based.&#13;
+</Description>
+        <Phone TollFree="false" Confidential="false">
+          <PhoneNumber>(619) 284-9281</PhoneNumber>
+          <Description>Main</Description>
+          <Type>Voice</Type>
+        </Phone>
+        <TimeOpen>
+          <Notes>8:00 am-4:00 pm Monday-Thursday; 8:00 am-12:00 pm Friday</Notes>
+        </TimeOpen>
+        <TimeOpen>
+          <Monday>
+            <From>06:00:00</From>
+            <To>12:00:00</To>
+            <From>12:00:00</From>
+            <To>18:00:00</To>
+          </Monday>
+          <Tuesday>
+            <From>06:00:00</From>
+            <To>12:00:00</To>
+            <From>12:00:00</From>
+            <To>18:00:00</To>
+          </Tuesday>
+          <Wednesday>
+            <From>06:00:00</From>
+            <To>12:00:00</To>
+            <From>12:00:00</From>
+            <To>18:00:00</To>
+          </Wednesday>
+          <Thursday>
+            <From>06:00:00</From>
+            <To>12:00:00</To>
+            <From>12:00:00</From>
+            <To>18:00:00</To>
+          </Thursday>
+          <Friday>
+            <From>06:00:00</From>
+            <To>12:00:00</To>
+            <From>12:00:00</From>
+            <To>18:00:00</To>
+          </Friday>
+        </TimeOpen>
+        <Taxonomy>
+          <Code>PH-3300.2750</Code>
+        </Taxonomy>
+        <Taxonomy>
+          <Code>PH-3300.9750</Code>
+        </Taxonomy>
+        <Taxonomy>
+          <Code>PX-1700.9500-300</Code>
+        </Taxonomy>
+        <GeographicAreaServed>
+          <ZipCode>92120</ZipCode>
+          <Description>92119, 92120, 92020, 92021, 92019, 91941, 91942, 91943, 91944, 91945, 91977, 92071, 92124,  92101, 92102, 92103, 92104, 92105, 92115, 92116, 92111, 92117, 92123, 92124, 92127, 92128, 92131, 92108, 92106, 92107, 92109, 92110, 92037&#13;
+*Recently expanded into Scripps Ranch and Rancho Bernardo</Description>
+        </GeographicAreaServed>
+        <ResourceInfo AvailableForDirectory="true" AvailableForReferral="true" AvailableForResearch="true" DateAdded="2013-11-01" DateLastVerified="2016-03-25" DateOfLastAction="2016-03-25" LastActionType="UPDATE">
+          <Contact Type="Editor">
+            <Name>Carrie McClellan</Name>
+            <Email>
+              <Address>cmcclellan@elderhelpofsandiego.org</Address>
+            </Email>
+            <Phone TollFree="false" Confidential="false">
+              <PhoneNumber>(619) 284-9281</PhoneNumber>
+              <Description>Main</Description>
+              <Type>Voice</Type>
+            </Phone>
+          </Contact>
+          <ResourceSpecialist>Carrie McClellan</ResourceSpecialist>
+        </ResourceInfo>
+        <OtherRequirements>Eligibility: 60 years and older</OtherRequirements>
+        <GenderRequirements>Either</GenderRequirements>
+      </SiteService>
+    </Site>
+    <Site ExcludeFromWebsite="false" ExcludeFromDirectory="false">
+      <Key>656597</Key>
+      <Name>Concierge Club, ElderHelp</Name>
+      <SiteDescription>ElderHelp's Member Care Coordinators offer support and help with: coordinating care including discharge from hospital, family support, volunteer services, advocacy, access to care, completing enrollment applications for medi-cal, CalFresh and more. This service is offered through the Concierge Club which has a sliding scale fee structure to serve all income levels. &#13;
+&#13;
+Transportation is also provided.</SiteDescription>
+      <PhysicalAddress Confidential="false">
+        <PreAddressLine/>
+        <Line1>3860 Calle Fortunada, Suite 101</Line1>
+        <Line2/>
+        <City>San Diego</City>
+        <State>CA</State>
+        <ZipCode>92123</ZipCode>
+        <Country/>
+      </PhysicalAddress>
+      <MailingAddress Confidential="false">
+        <PreAddressLine/>
+        <Line1/>
+        <Line2/>
+        <City/>
+        <State/>
+        <ZipCode/>
+        <Country/>
+      </MailingAddress>
+      <Phone TollFree="false" Confidential="false">
+        <PhoneNumber>none</PhoneNumber>
+        <Type> </Type>
+      </Phone>
+      <URL>
+        <Address>www.elderhelpofsandiego.org</Address>
+        <Note/>
+      </URL>
+      <Email>
+        <Address>info@elderhelpofsandiego.org</Address>
+      </Email>
+      <Contact Type="program contact">
+        <Name/>
+        <Email>
+          <Address>info@elderhelpofsandiego.org</Address>
+        </Email>
+        <Phone TollFree="false" Confidential="false">
+          <PhoneNumber>(619) 284-9281</PhoneNumber>
+          <Description>Main</Description>
+          <Type>Voice</Type>
+        </Phone>
+      </Contact>
+      <Contact Type="director">
+        <Name>Carrie McClellan-ElderHelp</Name>
+        <Phone TollFree="false" Confidential="false">
+          <PhoneNumber>6192849281</PhoneNumber>
+          <Description>Main</Description>
+          <Type>Voice</Type>
+        </Phone>
+      </Contact>
+      <TimeOpen>
+        <Notes>8:00 am-4:00 pm Monday-Thursday; 8:00 am-12:00 pm Friday</Notes>
+      </TimeOpen>
+      <DisabilitiesAccess>Wheelchair Accessible</DisabilitiesAccess>
+      <BusServiceAccess/>
+      <SiteService ServiceGroupKey="339995" ServiceNotAlwaysAvailable="false">
+        <Name>Concierge Club, ElderHelp</Name>
+        <Key>656597</Key>
+        <Description>ElderHelp's Member Care Coordinators offer support and help with: coordinating care including discharge from hospital, family support, volunteer services, advocacy, access to care, completing enrollment applications for medi-cal, CalFresh and more. This service is offered through the Concierge Club which has a sliding scale fee structure to serve all income levels. &#13;
+&#13;
+Transportation is also provided.</Description>
+        <Phone TollFree="false" Confidential="false">
+          <PhoneNumber>(619) 284-9281</PhoneNumber>
+          <Description>Main</Description>
+          <Type>Voice</Type>
+        </Phone>
+        <TimeOpen>
+          <Notes>8:00 am-4:00 pm Monday-Thursday; 8:00 am-12:00 pm Friday</Notes>
+        </TimeOpen>
+        <TimeOpen>
+          <Monday>
+            <From>06:00:00</From>
+            <To>12:00:00</To>
+            <From>12:00:00</From>
+            <To>18:00:00</To>
+          </Monday>
+          <Tuesday>
+            <From>06:00:00</From>
+            <To>12:00:00</To>
+            <From>12:00:00</From>
+            <To>18:00:00</To>
+          </Tuesday>
+          <Wednesday>
+            <From>06:00:00</From>
+            <To>12:00:00</To>
+            <From>12:00:00</From>
+            <To>18:00:00</To>
+          </Wednesday>
+          <Thursday>
+            <From>06:00:00</From>
+            <To>12:00:00</To>
+            <From>12:00:00</From>
+            <To>18:00:00</To>
+          </Thursday>
+          <Friday>
+            <From>06:00:00</From>
+            <To>12:00:00</To>
+            <From>12:00:00</From>
+            <To>18:00:00</To>
+          </Friday>
+        </TimeOpen>
+        <Taxonomy>
+          <Code>BH-8500.8000</Code>
+        </Taxonomy>
+        <Taxonomy>
+          <Code>PH-3333</Code>
+        </Taxonomy>
+        <Taxonomy>
+          <Code>BT-4500.6500-800</Code>
+        </Taxonomy>
+        <Taxonomy>
+          <Code>PD-6250</Code>
+        </Taxonomy>
+        <Taxonomy>
+          <Code>PH-3300</Code>
+        </Taxonomy>
+        <Taxonomy>
+          <Code>PH-1000</Code>
+        </Taxonomy>
+        <GeographicAreaServed>
+          <ZipCode>92123</ZipCode>
+          <Description>92119, 92120, 92020, 92021, 92019, 91941, 91942, 91943, 91944, 91945, 91977, 92071, 92124,  92101, 92102, 92103, 92104, 92105, 92106, 92107, 92108, 92109, 92110, 92111, 92115, 92116,  92117, 92123, 92124, 92127, 92128, 92131, 92037</Description>
+        </GeographicAreaServed>
+        <ResourceInfo AvailableForDirectory="true" AvailableForReferral="true" AvailableForResearch="true" DateAdded="2010-05-27" DateLastVerified="2016-03-25" DateOfLastAction="2016-03-25" LastActionType="UPDATE">
+          <Contact Type="Editor">
+            <Name>Carrie McClellan</Name>
+            <Email>
+              <Address>cmcclellan@elderhelpofsandiego.org</Address>
+            </Email>
+            <Phone TollFree="false" Confidential="false">
+              <PhoneNumber>(619) 284-9281</PhoneNumber>
+              <Description>Main</Description>
+              <Type>Voice</Type>
+            </Phone>
+          </Contact>
+          <ResourceSpecialist>Carrie McClellan</ResourceSpecialist>
+        </ResourceInfo>
+        <OtherRequirements>Eligibility: 60 years and older</OtherRequirements>
+        <GenderRequirements>Either</GenderRequirements>
+      </SiteService>
+    </Site>
+    <Site ExcludeFromWebsite="false" ExcludeFromDirectory="false">
+      <Key>651968</Key>
+      <Name>HomeShare, ElderHelp, San Diego</Name>
+      <SiteDescription>Is an arrangement where two or more unrelated people share a home to their mutual advantage. Each person has a private bedroom and may or may not share a bathroom. The common living areas, such as the kitchen and living room are shared.&#13;
+&#13;
+No emergency or urgent housing services provided.</SiteDescription>
+      <PhysicalAddress Confidential="false">
+        <PreAddressLine/>
+        <Line1>3860 Calle Fortunada, Suite 101</Line1>
+        <Line2/>
+        <City>San Diego</City>
+        <State>CA</State>
+        <ZipCode>92123</ZipCode>
+        <Country/>
+      </PhysicalAddress>
+      <MailingAddress Confidential="false">
+        <PreAddressLine/>
+        <Line1/>
+        <Line2/>
+        <City/>
+        <State/>
+        <ZipCode/>
+        <Country/>
+      </MailingAddress>
+      <Phone TollFree="false" Confidential="false">
+        <PhoneNumber>none</PhoneNumber>
+        <Type> </Type>
+      </Phone>
+      <URL>
+        <Address>www.elderhelpofsandiego.org</Address>
+        <Note/>
+      </URL>
+      <Contact Type="service contact">
+        <Title>HomeShare Coordinator</Title>
+        <Name>Ms. Shanika Webb</Name>
+        <Email>
+          <Address>swebb@elderhelpofsandiego.org</Address>
+        </Email>
+        <Phone TollFree="false" Confidential="false">
+          <PhoneNumber>(619) 284-9281 ext 127</PhoneNumber>
+          <Description>Main</Description>
+          <Type>Voice</Type>
+        </Phone>
+      </Contact>
+      <Contact Type="program contact">
+        <Title>Lead HomeShare Coordinator</Title>
+        <Name>Mr. Robert Shearer</Name>
+        <Email>
+          <Address>rshearer@elderhelpofsandiego.org</Address>
+        </Email>
+        <Phone TollFree="false" Confidential="false">
+          <PhoneNumber>(858) 200-2497</PhoneNumber>
+          <Description>Main</Description>
+          <Type>Voice</Type>
+        </Phone>
+      </Contact>
+      <TimeOpen>
+        <Notes>8:00 am-4:00 pm Monday-Thursday; 8:00 am-12:00 pm Friday</Notes>
+      </TimeOpen>
+      <DisabilitiesAccess/>
+      <BusServiceAccess/>
+      <SiteService ServiceGroupKey="337647" ServiceNotAlwaysAvailable="false">
+        <Name>HomeShare, ElderHelp, San Diego</Name>
+        <Key>651968</Key>
+        <Description>Is an arrangement where two or more unrelated people share a home to their mutual advantage. Each person has a private bedroom and may or may not share a bathroom. The common living areas, such as the kitchen and living room are shared.&#13;
+&#13;
+No emergency or urgent housing services provided.</Description>
+        <Phone TollFree="false" Confidential="false">
+          <PhoneNumber>(619) 284-9281</PhoneNumber>
+          <Description>Main</Description>
+          <Type>Voice</Type>
+        </Phone>
+        <TimeOpen>
+          <Notes>8:00 am-4:00 pm Monday-Thursday; 8:00 am-12:00 pm Friday</Notes>
+        </TimeOpen>
+        <TimeOpen>
+          <Monday>
+            <From>06:00:00</From>
+            <To>12:00:00</To>
+            <From>12:00:00</From>
+            <To>18:00:00</To>
+          </Monday>
+          <Tuesday>
+            <From>06:00:00</From>
+            <To>12:00:00</To>
+            <From>12:00:00</From>
+            <To>18:00:00</To>
+          </Tuesday>
+          <Wednesday>
+            <From>06:00:00</From>
+            <To>12:00:00</To>
+            <From>12:00:00</From>
+            <To>18:00:00</To>
+          </Wednesday>
+          <Thursday>
+            <From>06:00:00</From>
+            <To>12:00:00</To>
+            <From>12:00:00</From>
+            <To>18:00:00</To>
+          </Thursday>
+          <Friday>
+            <From>06:00:00</From>
+            <To>12:00:00</To>
+            <From>12:00:00</From>
+            <To>18:00:00</To>
+          </Friday>
+        </TimeOpen>
+        <Taxonomy>
+          <Code>BH-8500.8000</Code>
+        </Taxonomy>
+        <Taxonomy>
+          <Code>BH-3900.7500</Code>
+        </Taxonomy>
+        <Taxonomy>
+          <Code>BH-3900.3100</Code>
+        </Taxonomy>
+        <GeographicAreaServed>
+          <ZipCode>92123</ZipCode>
+          <Description>San Diego, La Jolla, El Cajon, 92019, 92020, 92021, 92101, 92102, 92103, 92104, 92105, 92106, 92107, 92108, 92109, 92110, 92111, 92113, 92114, 92115, 92116, 92117, 92119, 92120, 92121, 92122, 92123, 92124, 92126, 92127, 92128, 92129, 92130, 92131, 92132, 92133, 92134, 92136, 92139, 92140, 92142, 92145, 92154, 92173, 92037, 92038, 92039, 92092, 92093, 92064, 92074, 92128, 92129</Description>
+        </GeographicAreaServed>
+        <ResourceInfo AvailableForDirectory="true" AvailableForReferral="true" AvailableForResearch="true" DateAdded="2010-05-25" DateLastVerified="2016-03-25" DateOfLastAction="2016-03-25" LastActionType="UPDATE">
+          <Contact Type="Editor">
+            <Name>Carrie McClellan</Name>
+            <Email>
+              <Address>cmcclellan@elderhelpofsandiego.org</Address>
+            </Email>
+          </Contact>
+          <ResourceSpecialist>Carrie McClellan</ResourceSpecialist>
+        </ResourceInfo>
+        <DocumentsRequired>
+          <DocumentsRequired>Driver's License: Required. </DocumentsRequired>
+        </DocumentsRequired>
+        <OtherRequirements>Eligibility: Ages 18 years and older.</OtherRequirements>
+        <GenderRequirements>Either</GenderRequirements>
+        <IncomeRequirements>Maximum Income: MUST HAVE VIABLE SOURCE OF INCOME</IncomeRequirements>
+      </SiteService>
+    </Site>
+    <Site ExcludeFromWebsite="false" ExcludeFromDirectory="false">
+      <Key>651969</Key>
+      <Name>HomeShare, ElderHelp, Poway Senior Center</Name>
+      <SiteDescription>Is an arrangement where two or more unrelated people share a home to their mutual advantage. Each person has a private bedroom and may or may not share a bathroom. The common living areas, such as the kitchen and living room are shared. &#13;
+&#13;
+No emergency or urgent housing services provided. &#13;
+&#13;
+</SiteDescription>
+      <PhysicalAddress Confidential="false">
+        <PreAddressLine/>
+        <Line1>13094 Civic Center Drive</Line1>
+        <Line2/>
+        <City>Poway</City>
+        <State>CA</State>
+        <ZipCode>92064</ZipCode>
+        <Country/>
+      </PhysicalAddress>
+      <MailingAddress Confidential="false">
+        <PreAddressLine/>
+        <Line1/>
+        <Line2/>
+        <City/>
+        <State/>
+        <ZipCode/>
+        <Country/>
+      </MailingAddress>
+      <Phone TollFree="false" Confidential="false">
+        <PhoneNumber>none</PhoneNumber>
+        <Type> </Type>
+      </Phone>
+      <URL>
+        <Address>www.elderhelpofsandiego.org</Address>
+        <Note/>
+      </URL>
+      <Contact Type="service contact">
+        <Title>HomeShare Coordinator</Title>
+        <Name>Ms. Kimberley Sloan</Name>
+        <Email>
+          <Address>ksloan@elderhelpofsandiego.org</Address>
+        </Email>
+        <Phone TollFree="false" Confidential="false">
+          <PhoneNumber>(858) 748-9675 (Poway)</PhoneNumber>
+          <Description>Main</Description>
+          <Type>Voice</Type>
+        </Phone>
+      </Contact>
+      <Contact Type="program contact">
+        <Title>Lead HomeShare Coordinator</Title>
+        <Name>Mr. Robert Shearer</Name>
+        <Email>
+          <Address>rshearer@elderhelpofsandiego.org</Address>
+        </Email>
+        <Phone TollFree="false" Confidential="false">
+          <PhoneNumber>(858) 200-2497</PhoneNumber>
+          <Description>Main</Description>
+          <Type>Voice</Type>
+        </Phone>
+      </Contact>
+      <TimeOpen>
+        <Notes>8:00 am-4:00 pm Monday-Thursday; 8:00 am-2:00 pm Friday</Notes>
+      </TimeOpen>
+      <DisabilitiesAccess>Wheelchair Accessible</DisabilitiesAccess>
+      <BusServiceAccess/>
+      <SiteService ServiceGroupKey="337647" ServiceNotAlwaysAvailable="false">
+        <Name>HomeShare, ElderHelp, Poway Senior Center</Name>
+        <Key>651969</Key>
+        <Description>Is an arrangement where two or more unrelated people share a home to their mutual advantage. Each person has a private bedroom and may or may not share a bathroom. The common living areas, such as the kitchen and living room are shared. &#13;
+&#13;
+No emergency or urgent housing services provided. &#13;
+&#13;
+</Description>
+        <Phone TollFree="false" Confidential="false">
+          <PhoneNumber>(619) 284-9281 (Main Office)</PhoneNumber>
+          <Description>Main</Description>
+          <Type>Voice</Type>
+        </Phone>
+        <Phone TollFree="false" Confidential="false">
+          <PhoneNumber>(858) 748-6252</PhoneNumber>
+          <Description>Fax</Description>
+          <Type>Fax</Type>
+        </Phone>
+        <TimeOpen>
+          <Notes>8:00 am-4:00 pm Monday-Thursday; 8:00 am-2:00 pm Friday</Notes>
+        </TimeOpen>
+        <TimeOpen>
+          <Monday>
+            <From>06:00:00</From>
+            <To>12:00:00</To>
+            <From>12:00:00</From>
+            <To>18:00:00</To>
+          </Monday>
+          <Tuesday>
+            <From>06:00:00</From>
+            <To>12:00:00</To>
+            <From>12:00:00</From>
+            <To>18:00:00</To>
+          </Tuesday>
+          <Wednesday>
+            <From>06:00:00</From>
+            <To>12:00:00</To>
+            <From>12:00:00</From>
+            <To>18:00:00</To>
+          </Wednesday>
+          <Thursday>
+            <From>06:00:00</From>
+            <To>12:00:00</To>
+            <From>12:00:00</From>
+            <To>18:00:00</To>
+          </Thursday>
+          <Friday>
+            <From>06:00:00</From>
+            <To>12:00:00</To>
+            <From>12:00:00</From>
+            <To>18:00:00</To>
+          </Friday>
+        </TimeOpen>
+        <Taxonomy>
+          <Code>BH-8500.8000</Code>
+        </Taxonomy>
+        <Taxonomy>
+          <Code>BH-3900.3100</Code>
+        </Taxonomy>
+        <Taxonomy>
+          <Code>BH-3900.7500</Code>
+        </Taxonomy>
+        <GeographicAreaServed>
+          <ZipCode>92064</ZipCode>
+          <Description>Poway, Rancho Bernardo, Miramar, Scripps Ranch, 92064, 92074, 92128, 92129, 92131, 92145</Description>
+        </GeographicAreaServed>
+        <ResourceInfo AvailableForDirectory="true" AvailableForReferral="true" AvailableForResearch="true" DateAdded="2010-05-25" DateLastVerified="2015-08-07" DateOfLastAction="2015-08-07" LastActionType="UPDATE">
+          <Contact Type="Editor">
+            <Name>Carrie McClellan</Name>
+            <Email>
+              <Address>cmcclellan@elderhelpofsandiego.org</Address>
+            </Email>
+          </Contact>
+          <ResourceSpecialist>Carrie McClellan</ResourceSpecialist>
+        </ResourceInfo>
+        <OtherRequirements>Eligibility: Ages 18 years and older. NO FELONY CONVICTIONS.</OtherRequirements>
+        <GenderRequirements>Either</GenderRequirements>
+        <IncomeRequirements>Maximum Income: MUST HAVE VIABLE SOURCE OF INCOME!</IncomeRequirements>
+      </SiteService>
+    </Site>
+    <Site ExcludeFromWebsite="false" ExcludeFromDirectory="false">
+      <Key>659101</Key>
+      <Name>RUOK Daily Phone Call, Elderhelp</Name>
+      <SiteDescription>Provides daily phone calls to home-bound or disabled seniors to ensure safety and provide peace of mind. Calls are made by a live person.</SiteDescription>
+      <AKA>
+        <Name>RUOK (Are You OK), Are you okay</Name>
+        <Confidential>false</Confidential>
+      </AKA>
+      <PhysicalAddress Confidential="false">
+        <PreAddressLine/>
+        <Line1>3860 Calle Fortunada, Suite 101</Line1>
+        <Line2/>
+        <City>San Diego</City>
+        <State>CA</State>
+        <ZipCode>92123</ZipCode>
+        <Country/>
+      </PhysicalAddress>
+      <MailingAddress Confidential="false">
+        <PreAddressLine/>
+        <Line1/>
+        <Line2/>
+        <City/>
+        <State/>
+        <ZipCode/>
+        <Country/>
+      </MailingAddress>
+      <Phone TollFree="false" Confidential="false">
+        <PhoneNumber>none</PhoneNumber>
+        <Type> </Type>
+      </Phone>
+      <URL>
+        <Address>www.elderhelpofsandiego.org</Address>
+        <Note/>
+      </URL>
+      <Email>
+        <Address>info@elderhelpofsandiego.org</Address>
+      </Email>
+      <TimeOpen>
+        <Notes>8:00 am-4:00 pm Monday-Thursday; 8:00 am-12:00 pm Friday</Notes>
+      </TimeOpen>
+      <DisabilitiesAccess>Wheelchair Accessible</DisabilitiesAccess>
+      <BusServiceAccess/>
+      <SiteService ServiceGroupKey="341001" ServiceNotAlwaysAvailable="false">
+        <Name>RUOK Daily Phone Call, Elderhelp</Name>
+        <Key>659101</Key>
+        <Description>Provides daily phone calls to home-bound or disabled seniors to ensure safety and provide peace of mind. Calls are made by a live person.</Description>
+        <Phone TollFree="false" Confidential="false">
+          <PhoneNumber>(619) 284-9281</PhoneNumber>
+          <Description>Main</Description>
+          <Type>Voice</Type>
+        </Phone>
+        <Phone TollFree="false" Confidential="false">
+          <PhoneNumber>(619) 284-0214</PhoneNumber>
+          <Description>Fax</Description>
+          <Type>Fax</Type>
+        </Phone>
+        <TimeOpen>
+          <Notes>Phone calls are made between 8:00 am-11:00 am</Notes>
+        </TimeOpen>
+        <TimeOpen>
+          <Notes>8:00 am-4:00 pm Monday-Thursday; 8:00 am-12:00 pm Friday</Notes>
+        </TimeOpen>
+        <TimeOpen>
+          <Monday>
+            <From>06:00:00</From>
+            <To>12:00:00</To>
+            <From>12:00:00</From>
+            <To>18:00:00</To>
+          </Monday>
+          <Tuesday>
+            <From>06:00:00</From>
+            <To>12:00:00</To>
+            <From>12:00:00</From>
+            <To>18:00:00</To>
+          </Tuesday>
+          <Wednesday>
+            <From>06:00:00</From>
+            <To>12:00:00</To>
+            <From>12:00:00</From>
+            <To>18:00:00</To>
+          </Wednesday>
+          <Thursday>
+            <From>06:00:00</From>
+            <To>12:00:00</To>
+            <From>12:00:00</From>
+            <To>18:00:00</To>
+          </Thursday>
+          <Friday>
+            <From>06:00:00</From>
+            <To>12:00:00</To>
+            <From>12:00:00</From>
+            <To>18:00:00</To>
+          </Friday>
+        </TimeOpen>
+        <Taxonomy>
+          <Code>PH-1800.8500</Code>
+        </Taxonomy>
+        <GeographicAreaServed>
+          <ZipCode>92123</ZipCode>
+          <Description>Must live in the Central Region of San Diego County.</Description>
+        </GeographicAreaServed>
+        <ResourceInfo AvailableForDirectory="true" AvailableForReferral="true" AvailableForResearch="true" DateAdded="2010-07-07" DateLastVerified="2016-03-25" DateOfLastAction="2016-03-25" LastActionType="UPDATE">
+          <Contact Type="Editor">
+            <Name>Carrie McClellan</Name>
+            <Email>
+              <Address>cmcclellan@elderhelpofsandiego.org</Address>
+            </Email>
+          </Contact>
+          <ResourceSpecialist>Carrie McClellan</ResourceSpecialist>
+        </ResourceInfo>
+        <OtherRequirements>Eligibility: Seniors age 60+ living in Central San Diego.</OtherRequirements>
+        <GenderRequirements>Either</GenderRequirements>
+      </SiteService>
+    </Site>
+    <ResourceInfo AvailableForDirectory="true" AvailableForReferral="true" AvailableForResearch="true" DateAdded="2010-05-25" DateLastVerified="2016-03-25" DateOfLastAction="2016-03-25" LastActionType="UPDATE">
+      <Contact Type="Editor">
+        <Name>Carrie McClellan</Name>
+        <Email>
+          <Address>cmcclellan@elderhelpofsandiego.org</Address>
+        </Email>
+        <Phone TollFree="false" Confidential="false">
+          <PhoneNumber>(619) 284-9281</PhoneNumber>
+          <Description>Main</Description>
+          <Type>Voice</Type>
+        </Phone>
+      </Contact>
+      <ResourceSpecialist>Carrie McClellan</ResourceSpecialist>
+    </ResourceInfo>
+  </Agency>
+</Source>

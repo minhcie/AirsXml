@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Source xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SourceEntity="os155" OriginTimestamp="2016-03-28T09:13:01.000-06:00" SoftwareVendor="VisionLink" SoftwareVersion="Tapestry" TaxonomyVersion="2016-03-28T09:13:01.000-06:00" SchemaVersion="3.0">
+  <Agency FEIN="45-3713823" ExcludeFromWebsite="false" ExcludeFromDirectory="false">
+    <Key>381668</Key>
+    <Name>Veterans 360</Name>
+    <AgencyDescription>Veterans 360 will focus on (young combat) veterans’ growth by implementing the holistic principals of Engagement, Education, Employment and Healing. We have developed a model that utilizes the inherent strengths of our student-veterans and their desire for continued service, a meaningful career and a productive family life.</AgencyDescription>
+    <AKA>
+      <Name>V360, Vets 360, Veterans 360, Carry the Challenge</Name>
+      <Confidential>false</Confidential>
+    </AKA>
+    <AgencyLocation ExcludeFromWebsite="false" ExcludeFromDirectory="false">
+      <Name>Veterans 360</Name>
+      <SiteDescription>Veterans 360 will focus on (young combat) veterans’ growth by implementing the holistic principals of Engagement, Education, Employment and Healing. We have developed a model that utilizes the inherent strengths of our student-veterans and their desire for continued service, a meaningful career and a productive family life.</SiteDescription>
+      <AKA>
+        <Name>V360, Vets 360, Veterans 360, Carry the Challenge</Name>
+        <Confidential>false</Confidential>
+      </AKA>
+      <PhysicalAddress Confidential="false">
+        <PreAddressLine/>
+        <Line1>1049 Camino Del Mar</Line1>
+        <Line2>Unit F</Line2>
+        <City>Del Mar</City>
+        <State>California</State>
+        <ZipCode>92014</ZipCode>
+        <Country/>
+      </PhysicalAddress>
+      <MailingAddress Confidential="false">
+        <PreAddressLine>Veterans 360 Inc.</PreAddressLine>
+        <Line1>3830 Valley Centre Drive</Line1>
+        <Line2># 705-401</Line2>
+        <City>San Diego</City>
+        <State>CA</State>
+        <ZipCode>92130</ZipCode>
+        <Country/>
+      </MailingAddress>
+      <TimeOpen>
+        <Notes>Normal Business Hours.</Notes>
+      </TimeOpen>
+      <Languages>
+        <Name>English</Name>
+      </Languages>
+      <DisabilitiesAccess>No</DisabilitiesAccess>
+      <BusServiceAccess>No</BusServiceAccess>
+    </AgencyLocation>
+    <Phone TollFree="false" Confidential="false">
+      <PhoneNumber>949.933.5142</PhoneNumber>
+      <Description>Emergency</Description>
+      <Type>Voice</Type>
+    </Phone>
+    <Phone TollFree="false" Confidential="false">
+      <PhoneNumber>949.933.5142</PhoneNumber>
+      <Description>Hotline/Helpline</Description>
+    </Phone>
+    <Phone TollFree="false" Confidential="false">
+      <PhoneNumber>(858) 461-4946 </PhoneNumber>
+      <Description>Main</Description>
+      <Type>Voice</Type>
+    </Phone>
+    <Phone TollFree="false" Confidential="false">
+      <PhoneNumber>(949) 933-5142 </PhoneNumber>
+      <Description>Alternate</Description>
+      <Type>Voice</Type>
+    </Phone>
+    <Phone TollFree="false" Confidential="false">
+      <PhoneNumber>8582564006</PhoneNumber>
+      <Description>TTY/TDD</Description>
+      <Type>TTY/TDD</Type>
+    </Phone>
+    <Phone TollFree="false" Confidential="false">
+      <PhoneNumber>858.256.4008</PhoneNumber>
+      <Description>Fax</Description>
+      <Type>Fax</Type>
+    </Phone>
+    <URL>
+      <Address>www.carrythechallenge.org</Address>
+      <Note/>
+    </URL>
+    <Email>
+      <Address>Info@Vets360.org</Address>
+    </Email>
+    <Contact Type="contact">
+      <Name>Rick Collins</Name>
+      <Email>
+        <Address>rick@vets360.org</Address>
+      </Email>
+    </Contact>
+    <Contact Type="director">
+      <Title>Executive Director</Title>
+      <Name>Mr. Rick J. Collins</Name>
+      <Email>
+        <Address>RICK@VETS360.ORG</Address>
+      </Email>
+      <Phone TollFree="false" Confidential="false">
+        <PhoneNumber>858.256.4006</PhoneNumber>
+        <Description>Main</Description>
+        <Type>Voice</Type>
+      </Phone>
+    </Contact>
+    <LicenseAccreditation>
+      <LicensedBy>IRS</LicensedBy>
+    </LicenseAccreditation>
+    <IRSStatus/>
+    <SourceOfFunds>Public Donations</SourceOfFunds>
+    <ServiceGroup>
+      <Key>720587</Key>
+      <Name>Vets360</Name>
+      <ProgramName>Vets360</ProgramName>
+    </ServiceGroup>
+    <Site ExcludeFromWebsite="false" ExcludeFromDirectory="false">
+      <Key>1399098</Key>
+      <Name>Vets360, Veterans 360</Name>
+      <SiteDescription>To engage recently separated combat veterans of Iraq and/or Afghanistan into a 30 - 60 days program to better prepare them for civilian life. Includes service activities with fellow combat veterans, educational events to prepare veterans for future employment, employer presentations to give veterans a better understanding of the civilian work place and healing events to help them deal with combat trauma.&#13;
+Veterans are required to cover the cost of day-to-day living expenses.</SiteDescription>
+      <AKA>
+        <Name>V360, Vets360</Name>
+        <Confidential>false</Confidential>
+      </AKA>
+      <PhysicalAddress Confidential="false">
+        <PreAddressLine/>
+        <Line1/>
+        <Line2/>
+        <City/>
+        <State/>
+        <ZipCode/>
+        <Country/>
+      </PhysicalAddress>
+      <MailingAddress Confidential="false">
+        <PreAddressLine/>
+        <Line1>3830 Valley Center Drive</Line1>
+        <Line2># 705-401</Line2>
+        <City>San Diego</City>
+        <State>CA</State>
+        <ZipCode>92130</ZipCode>
+        <Country/>
+      </MailingAddress>
+      <Phone TollFree="false" Confidential="false">
+        <PhoneNumber>none</PhoneNumber>
+        <Type> </Type>
+      </Phone>
+      <URL>
+        <Address>www.veterans360.org</Address>
+        <Note/>
+      </URL>
+      <Email>
+        <Address>rick@vets360.org</Address>
+      </Email>
+      <Contact Type="service contact">
+        <Name>Rick Collins</Name>
+        <Email>
+          <Address>rick@vets360.org</Address>
+        </Email>
+      </Contact>
+      <Contact Type="program contact">
+        <Name/>
+      </Contact>
+      <TimeOpen>
+        <Notes>8:00 am-5:00 pm Monday-Sunday</Notes>
+      </TimeOpen>
+      <DisabilitiesAccess>Wheelchair Accessible.</DisabilitiesAccess>
+      <BusServiceAccess/>
+      <SiteService ServiceGroupKey="720587" ServiceNotAlwaysAvailable="false">
+        <Name>Vets360, Veterans 360</Name>
+        <Key>1399098</Key>
+        <Description>To engage recently separated combat veterans of Iraq and/or Afghanistan into a 30 - 60 days program to better prepare them for civilian life. Includes service activities with fellow combat veterans, educational events to prepare veterans for future employment, employer presentations to give veterans a better understanding of the civilian work place and healing events to help them deal with combat trauma.&#13;
+Veterans are required to cover the cost of day-to-day living expenses.</Description>
+        <Phone TollFree="false" Confidential="false">
+          <PhoneNumber>(858) 461-4946</PhoneNumber>
+          <Description>Main</Description>
+          <Type>Voice</Type>
+        </Phone>
+        <Phone TollFree="false" Confidential="false">
+          <PhoneNumber>(949) 933-5142</PhoneNumber>
+          <Description>Alternate</Description>
+          <Type>Voice</Type>
+        </Phone>
+        <Phone TollFree="false" Confidential="false">
+          <PhoneNumber>(949) 216-7145</PhoneNumber>
+          <Description>Fax</Description>
+          <Type>Fax</Type>
+        </Phone>
+        <TimeOpen>
+          <Notes>8:00 am-5:00 pm Monday-Sunday</Notes>
+        </TimeOpen>
+        <TimeOpen>
+          <Sunday>
+            <From>06:00:00</From>
+            <To>12:00:00</To>
+            <From>12:00:00</From>
+            <To>18:00:00</To>
+          </Sunday>
+          <Monday>
+            <From>06:00:00</From>
+            <To>12:00:00</To>
+            <From>12:00:00</From>
+            <To>18:00:00</To>
+          </Monday>
+          <Tuesday>
+            <From>06:00:00</From>
+            <To>12:00:00</To>
+            <From>12:00:00</From>
+            <To>18:00:00</To>
+          </Tuesday>
+          <Wednesday>
+            <From>06:00:00</From>
+            <To>12:00:00</To>
+            <From>12:00:00</From>
+            <To>18:00:00</To>
+          </Wednesday>
+          <Thursday>
+            <From>06:00:00</From>
+            <To>12:00:00</To>
+            <From>12:00:00</From>
+            <To>18:00:00</To>
+          </Thursday>
+          <Friday>
+            <From>06:00:00</From>
+            <To>12:00:00</To>
+            <From>12:00:00</From>
+            <To>18:00:00</To>
+          </Friday>
+          <Saturday>
+            <From>06:00:00</From>
+            <To>12:00:00</To>
+            <From>12:00:00</From>
+            <To>18:00:00</To>
+          </Saturday>
+        </TimeOpen>
+        <Taxonomy>
+          <Code>RP-1400.8000-900</Code>
+        </Taxonomy>
+        <Taxonomy>
+          <Code>ND-6500.9200</Code>
+        </Taxonomy>
+        <GeographicAreaServed>
+          <ZipCode>00000</ZipCode>
+          <Description>All areas.</Description>
+        </GeographicAreaServed>
+        <ResourceInfo AvailableForDirectory="true" AvailableForReferral="true" AvailableForResearch="true" DateAdded="2013-02-12" DateLastVerified="2015-02-03" DateOfLastAction="2015-02-03" LastActionType="UPDATE">
+          <Contact Type="Editor">
+            <Name>Rick Collins</Name>
+            <Email>
+              <Address>rick@vets360.org</Address>
+            </Email>
+            <Phone TollFree="false" Confidential="false">
+              <PhoneNumber>(949) 933-5142</PhoneNumber>
+              <Description>Main</Description>
+              <Type>Voice</Type>
+            </Phone>
+          </Contact>
+          <ResourceSpecialist>Rick Collins</ResourceSpecialist>
+        </ResourceInfo>
+        <DocumentsRequired>
+          <DocumentsRequired>Other ID Required: Military Identification</DocumentsRequired>
+        </DocumentsRequired>
+        <OtherRequirements>Eligibility: Combat veterans of Iraq/Afghanistan with 4 to 6 years of active service. Currently does not accept veterans with substance abuse issues, mental health concerns, homeless veterans or veterans treated by veterans court.</OtherRequirements>
+        <GenderRequirements>Either</GenderRequirements>
+        <IncomeRequirements>Maximum Income: Clients required to cover food costs and basic essentials.</IncomeRequirements>
+      </SiteService>
+    </Site>
+    <ResourceInfo AvailableForDirectory="true" AvailableForReferral="true" AvailableForResearch="true" DateAdded="2013-02-12" DateLastVerified="2016-02-16" DateOfLastAction="2016-02-16" LastActionType="UPDATE">
+      <Contact Type="Editor">
+        <Name>Rick Collins</Name>
+        <Email>
+          <Address>RICK@VETS360.ORG</Address>
+        </Email>
+        <Phone TollFree="false" Confidential="false">
+          <PhoneNumber>858.256.4006</PhoneNumber>
+          <Description>Main</Description>
+          <Type>Voice</Type>
+        </Phone>
+      </Contact>
+      <ResourceSpecialist>Rick Collins</ResourceSpecialist>
+    </ResourceInfo>
+  </Agency>
+</Source>
