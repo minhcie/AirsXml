@@ -17,8 +17,8 @@ GO
 
 CREATE TABLE dbo.Taxonomy
    (ID int PRIMARY KEY NOT NULL,
-    Code varchar(64) NOT NULL,
-	Name varchar(128) NOT NULL,
+    Taxonomy Code varchar(64) NOT NULL,
+	Taxonomy Name varchar(128) NOT NULL,
 	CodeDefinition varchar(MAX),
     CreatedDate date,
 	LastModifiedDate date,
@@ -42,18 +42,18 @@ public class DbTaxonomy {
         DbTaxonomy result = null;
         try {
             StringBuffer sb = new StringBuffer();
-            sb.append("SELECT ID, Code, Name, CodeDefinition, CreatedDate, ");
-            sb.append("LastModifiedDate, ImportedDate ");
+            sb.append("SELECT [ID], [Taxonomy Code], [Taxonomy Name], [CodeDefinition], ");
+            sb.append("[CreatedDate], [LastModifiedDate], [ImportedDate] ");
             sb.append("FROM dbo.Taxonomy ");
-            sb.append("WHERE Code = '" + code + "'");
+            sb.append("WHERE [Taxonomy Code] = '" + code + "'");
 
             Statement stmt = conn.createStatement();
             ResultSet rs = stmt.executeQuery(sb.toString());
             if (rs.next()) {
                 result = new DbTaxonomy();
                 result.id = rs.getLong("ID");
-                result.code = rs.getString("Code");
-                result.name = rs.getString("Name");
+                result.code = rs.getString("Taxonomy Code");
+                result.name = rs.getString("Taxonomy Name");
                 result.definition = rs.getString("CodeDefinition");
                 result.created = rs.getDate("CreatedDate");
                 result.lastModified = rs.getDate("LastModifiedDate");

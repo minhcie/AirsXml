@@ -31,7 +31,7 @@ import org.apache.log4j.Logger;
 
 public class AirsXml {
     private static final Logger log = Logger.getLogger(AirsXml.class.getName());
-    static final String USERNAME = "mtran@211sandiego.org.dev";
+    static final String USERNAME = "mtran@211sandiego.org";
     static final String PASSWORD = "m1nh@211KsmlvVA4mvtI6YwzKZOLjbKF9";
     static PartnerConnection connection;
 
@@ -117,7 +117,7 @@ public class AirsXml {
             boolean requirements = false;
 
             // Query referral agency record type id.
-		    String referralRecTypeId = queryRecordType("Referral Agency");
+		    String referralRecTypeId = queryRecordType("Account", "Referral Agency");
             String agencyId = null;
             AgencyInfo agency = null;
             ServiceInfo service = null;
@@ -359,13 +359,14 @@ public class AirsXml {
         }
     }
 
-    private static String queryRecordType(String name) {
-    	log.info("Querying for Referral Agency record type...");
+    private static String queryRecordType(String objectName, String name) {
+    	log.info("Querying for " + name + " record type from " + objectName + "...");
         String recordTypeId = null;
     	try {
             // Query for record type name.
-    		String sql = "SELECT Id, Name FROM RecordType " +
-                         "WHERE Name = '" + name + "' ";
+    		String sql = "SELECT Id, Name, SobjectType FROM RecordType " +
+                         "WHERE Name = '" + name + "' " +
+                         "  AND SobjectType = '" + objectName + "' ";
     		QueryResult queryResults = connection.query(sql);
     		if (queryResults.getSize() > 0) {
     			for (SObject s: queryResults.getRecords()) {
@@ -382,20 +383,24 @@ public class AirsXml {
 			log.info("Record Type Id: " + recordTypeId);
         }
         else {
-            log.info("Referral agency record type not found!");
+            log.info(name + " record type not found!");
         }
 
         return recordTypeId;
     }
 
     private static String queryService(String agencyId, String name) {
-    	log.info("Querying for service name: " + name + "...");
         String serviceId = null;
+        if (agencyId == null) {
+            return serviceId;
+        }
+
+    	log.info("Querying for service name: " + name + "...");
     	try {
     		String sql = "SELECT Id, Name, Service_Name__c " +
     					 "FROM Service__c " +
     					 "WHERE Agency__r.Id = '" + agencyId + "' " +
-    					 "  AND Service_Name__c = '" + name + "'";
+    					 "  AND Service_Name__c = '" + name.replaceAll("\\'", "\\\\'") + "'";
     		QueryResult queryResults = connection.query(sql);
     		if (queryResults.getSize() > 0) {
     			for (SObject s: queryResults.getRecords()) {
@@ -419,13 +424,17 @@ public class AirsXml {
     }
 
     private static String queryNeed(String serviceId, String name) {
-    	log.info("Querying for need name: " + name + "...");
         String needId = null;
+        if (serviceId == null) {
+            return needId;
+        }
+
+    	log.info("Querying for need name: " + name + "...");
     	try {
     		String sql = "SELECT Id, Name, Taxonomy_Code__c " +
     					 "FROM Need__c " +
     					 "WHERE Service__r.Id = '" + serviceId + "' " +
-    					 "  AND Taxonomy_Code__c = '" + name + "'";
+    					 "  AND Taxonomy_Code__c = '" + name.replaceAll("\\'", "\\\\'") + "'";
     		QueryResult queryResults = connection.query(sql);
     		if (queryResults.getSize() > 0) {
     			for (SObject s: queryResults.getRecords()) {
@@ -456,7 +465,7 @@ public class AirsXml {
 
             // Has agency been created before?
     		String sql = "SELECT Id, Name FROM Account " +
-                         "WHERE Name = '" + ai.agencyName + "' ";
+                         "WHERE Name = '" + ai.agencyName.replaceAll("\\'", "\\\\'") + "' ";
     		QueryResult queryResults = connection.query(sql);
     		if (queryResults.getSize() > 0) {
 				SObject so = (SObject)queryResults.getRecords()[0];
