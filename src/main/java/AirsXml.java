@@ -116,11 +116,21 @@ public class AirsXml {
             boolean contactEmail = false;
             boolean requirements = false;
 
+            // Query default owner.
+            String owner = "Karis Grounds";
+            String ownerId = queryUser(owner);
+            if (ownerId == null) {
+                log.error("Invalid owner name!");
+                System.exit(-1);
+            }
+
             // Query referral agency record type id.
 		    String referralRecTypeId = queryRecordType("Account", "Referral Agency");
             String agencyId = null;
             AgencyInfo agency = null;
             ServiceInfo service = null;
+            int numAgencies = 0;
+            int numServices = 0;
 
         	// Read the XML document.
         	while (eventReader.hasNext()) {
@@ -307,11 +317,17 @@ public class AirsXml {
                                     agencyInfo = false;
 
                                     // Insert/update agency.
-                                    agencyId = upsertAgency(referralRecTypeId, agency);
+                                    agencyId = upsertAgency(referralRecTypeId,
+                                                            ownerId, agency);
+
+                                    // Track number of agencies.
+                                    if (agencyId != null) {
+                                        numAgencies++;
+                                    }
                                 }
                                 break;
                             case "SiteService":
-                                log.info("End element: SiteService\n");
+                                log.info("\nEnd element: SiteService");
                                 siteInfo = false;
 
                                 // Has service been created?
@@ -319,6 +335,11 @@ public class AirsXml {
                                 if (serviceId == null) {
                                     // Create new service.
                                     serviceId = createService(agencyId, service);
+                                }
+
+                                // Track number of services.
+                                if (serviceId != null) {
+                                    numServices++;
                                 }
 
                                 // Check to see if taxonomy codes have been created for this service..
@@ -349,6 +370,9 @@ public class AirsXml {
                         break;
                 }
         	}
+
+            log.info("Total number of agencies: " + numAgencies);
+            log.info("Total number of services: " + numServices);
         }
         catch (FileNotFoundException e) {
             log.error("XML file document not found!\n");
@@ -357,6 +381,36 @@ public class AirsXml {
             log.error("Error parsing XML document:\n");
         	e.printStackTrace();
         }
+    }
+
+    private static String queryUser(String name) {
+        log.info("Querying user " + name + "...");
+        String userId = null;
+        if (name == null || name.trim().length() <= 0) {
+            return userId;
+        }
+
+        // Parse user first and last name.
+        String[] parts = name.split(" ");
+
+    	try {
+    		StringBuilder sb = new StringBuilder();
+    		sb.append("SELECT Id, FirstName, LastName, Account.Name ");
+    		sb.append("FROM User ");
+    		sb.append("WHERE FirstName = '" + parts[0] + "' ");
+    		sb.append("  AND LastName = '" + parts[1] + "'");
+
+    		QueryResult queryResults = connection.query(sb.toString());
+    		if (queryResults.getSize() > 0) {
+    			for (SObject s: queryResults.getRecords()) {
+                    userId = s.getId();
+    			}
+    		}
+    	}
+    	catch (Exception e) {
+    		e.printStackTrace();
+    	}
+        return userId;
     }
 
     private static String queryRecordType(String objectName, String name) {
@@ -457,7 +511,8 @@ public class AirsXml {
         return needId;
     }
 
-    private static String upsertAgency(String recordTypeId, AgencyInfo ai) {
+    private static String upsertAgency(String recordTypeId, String ownerId, AgencyInfo ai) {
+        log.info("Upserting agency name: " + ai.agencyName + "...");
         String agencyId = null;
     	try {
             SObject[] records = new SObject[1];
@@ -465,7 +520,8 @@ public class AirsXml {
 
             // Has agency been created before?
     		String sql = "SELECT Id, Name FROM Account " +
-                         "WHERE Name = '" + ai.agencyName.replaceAll("\\'", "\\\\'") + "' ";
+                         "WHERE Name = '" + ai.agencyName.replaceAll("\\'", "\\\\'") + "' " +
+                         "  AND RecordTypeId = '" + recordTypeId + "'";
     		QueryResult queryResults = connection.query(sql);
     		if (queryResults.getSize() > 0) {
 				SObject so = (SObject)queryResults.getRecords()[0];
@@ -474,6 +530,7 @@ public class AirsXml {
 				SObject soUpdate = new SObject();
 				soUpdate.setType("Account");
 		        so.setField("RecordTypeId", recordTypeId);
+		        so.setField("OwnerId", ownerId);
 				soUpdate.setId(so.getId());
 				soUpdate.setField("Name", so.getField("Name"));
                 soUpdate.setField("BillingStreet", ai.agencyAddr);
@@ -491,6 +548,7 @@ public class AirsXml {
 			    SObject so = new SObject();
 				so.setType("Account");
 		        so.setField("RecordTypeId", recordTypeId);
+		        so.setField("OwnerId", ownerId);
 				so.setField("Name", ai.agencyName);
                 so.setField("BillingStreet", ai.agencyAddr);
                 so.setField("BillingCity", ai.agencyCity);
@@ -525,6 +583,7 @@ public class AirsXml {
     }
 
     private static String createService(String agencyId, ServiceInfo si) {
+        log.info("Creating new service name: " + si.serviceName + "...");
         String serviceId = null;
     	try {
     		SObject so = new SObject();
@@ -561,6 +620,7 @@ public class AirsXml {
     }
 
     private static void createNeeds(Connection sqlConn, String serviceId, List<String> newCodes) {
+        log.info("Creating new needs...");
     	try {
             int n = newCodes.size();
             if (n <= 0) {
